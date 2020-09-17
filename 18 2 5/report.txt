@@ -1,0 +1,17 @@
+Изначально код, где пользователя просили ввести номер удаляемого элемента, выглядел так:
+do
+	{
+		cout << "Enter the index of the number to delete (from 1 before " << amount << "): ";
+		cin >> num;
+	} while (num > amount || num < 0);
+
+while (num > amount || num < 0); // num < 0 в этом случае 0 не входит в множество неверных значений
+
+После изменения:
+do
+	{
+		cout << "Enter the index of the number to delete (from 1 before " << amount << "): ";
+		cin >> num;
+	} while (num > amount || num < 1);
+
+while (num > amount || num < 1); // num < 1 0 входит в множество, и он не учитывается

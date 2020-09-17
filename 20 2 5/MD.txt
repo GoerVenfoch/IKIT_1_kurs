@@ -1,0 +1,6 @@
+Ivanov 21 10 "Not visit"
+Vladimirov 22 2 "Visit"
+Roiny 23 3 "Not visit"
+Voitenko 22 5 "Not visit"
+Petrov 25 3 "Visit"
+Sidorov 28 4 "Visit"
